@@ -37,13 +37,27 @@ function calculateTotal() {
     const total = chips + coke + burger + fries + iceCream;
     console.log(total);
     return total;
-    
 }
+
+ function taxedAmount() {
+     const taxedAmount = calculateTotal() * .15;
+     console.log(taxAmount);
+    return taxedAmount;
+ }
+
+ function subTotal() {
+     subtotal = calculateTotal() + taxedAmount();
+     console.log(subtotal);
+     return subtotal;
+ }
+
+
 const finalTotal = calculateTotal();
 function calculateChange() {
 const change = cashAvailable - finalTotal;
     return change;
 }
+
 const returnChange = calculateChange();
 function logResult() {
 console.log(returnChange );
