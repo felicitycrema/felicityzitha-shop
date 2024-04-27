@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SHOPpppppp_files/style.css">
+    <title>SHOP</title>
+    
+    
+</head>
+<body>
+    <div class="app">
+        <div class="navbar">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html" alt="">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html" alt="">Products</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html" alt="">About</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html" alt="">Contacts</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html" alt="">Account</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html" alt=""><i></i></a><i><a href="http://127.0.0.1:5500/index.html" alt="">icon</a></i>
+            </li></ul>
+        </div>
+
+        <div class="container cart-page">
+         <table>
+            <tbody><tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr> 
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <div>
+                        <img src="./SHOPpppppp_files/Chips.jpeg" alt="">     
+                        </div>
+                        <div>
+                            <p>Chips</p>
+                            <small>Price: R20.00</small>
+                            <br>
+                            <a href="http://127.0.0.1:5500/index.html">Remove Item</a>
+                        </div>
+                    </div>         
+                    
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R20.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                      <div>
+                        <img src="./SHOPpppppp_files/Coke.webp" alt="">
+                      </div>
+                    <div>
+                     <p>Coke</p>
+                     <small>Price: R13.00</small>
+                    <br>
+                    <a href="http://127.0.0.1:5500/index.html">Remove Item</a>
+                    </div>
+                </div></td>
+                <td><input type="number" value="1"></td>
+                <td>R13.00</td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <div>
+                        <img src="./SHOPpppppp_files/Burger.webp" alt="">
+                       </div> 
+                   <div>
+                    <p>Burger</p>
+                     <small>Price: R50.00</small>
+                    <br>
+                    <a href="http://127.0.0.1:5500/index.html">Remove Item</a>
+                    </div>
+                </div></td>
+                <td><input type="number" value="1"></td>
+                <td>R50.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                       <div>
+                        <img width="177" height="215" src="./SHOPpppppp_files/Tin-Roof-Dairy-Ice-Cream.jpg" alt="">
+                        </div>
+                   
+                    <div>
+                    <p>Ice Cream</p>
+                     <small>Price: R50.00</small>
+                    <br>
+                    <a href="http://127.0.0.1:5500/index.html">Remove Item</a>
+                    </div>
+                </div></td>
+                <td><input type="number" value="1"></td>
+                <td>R50.00</td>
+            </tr>
+        </tbody></table>
+        <!-- <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>onclick="calculateTotal()"</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>onclick ="taxedAmount()"</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+        </table> -->
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./SHOPpppppp_files/script.js.download">
+        
+    </script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

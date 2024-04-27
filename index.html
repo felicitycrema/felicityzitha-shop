@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./style.css">
     <title>SHOP</title>
     
@@ -17,12 +18,12 @@
                 <li><a href="" alt="">About</a></li>
                 <li><a href="" alt="">Contacts</a></li>
                 <li><a href="" alt="">Account</a></li>
-                <li><a href="" alt=""><i><a href="" alt="">icon</a></i></a>
+                <li><a href="" alt=""><i class= "material-symbols-outlined"><a href="" alt="">shopping_cart</a></i></a>
             </ul>
         </div>
 
         <div class="container cart-page">
-         <table>
+         <table class="theader">
             <tr>
                 <th>Product</th>
                 <th>Quantity</th>
@@ -98,19 +99,13 @@
                 <td>R50.00</td>
             </tr>
         </table>
-        <table>
-                <tr>
-                    <td>Subtotal</td>
-                    <td>onclick="calculateTotal()"</td>
-                </tr>
-                <tr>
-                    <td>Tax</td>
-                    <td>onclick ="taxedAmount()"</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
+        <table class="totals">
+            <tr>
+                <th>Total: <input type="text" class="change"></th>
+                <th>Tax: <input type="text" class="change"></th>
+                <th>Total Amount Payable: <input type="number" class="change"></th>
+                <th>Change: <input type="text" class="change"></th>
+            </tr> 
         </table>
         </div>
     </div>

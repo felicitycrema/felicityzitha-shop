@@ -30,14 +30,15 @@ table{
     color: grey;
     
 }
-.theader th{
+
+.th{
     text-align: left;
     padding: 5px;
     color: #fff;
     background: #ff532b;
     font-weight: normal;
     
-} 
+}
 td{
     padding: 5px 5px;
     }
@@ -86,10 +87,9 @@ th:first-child{
     align-items:flex-end;
     justify-content: flex-end;
     padding: 5px;
-  
+    color: #fff;
     flex-direction: column;
     font-weight: normal;
-    border: none;
-    color: #fff;
-    background: #ff523b;
-  }
+    border-color: none;
+    
+}
